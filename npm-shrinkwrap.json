@@ -19,7 +19,7 @@
         "electron-squirrel-startup": "^1.0.0",
         "electron-updater": "6.1.7",
         "etcher-sdk": "9.0.0",
-        "i18next": "23.7.8",
+        "i18next": "27.2.6",
         "immutable": "3.8.2",
         "lodash": "4.17.21",
         "node-ipc": "9.2.1",
@@ -10637,20 +10637,6 @@
         "node": ">=10.13.0"
       }
     },
-    "node_modules/enquirer": {
-      "version": "2.4.1",
-      "dev": true,
-      "license": "MIT",
-      "optional": true,
-      "peer": true,
-      "dependencies": {
-        "ansi-colors": "^4.1.1",
-        "strip-ansi": "^6.0.1"
-      },
-      "engines": {
-        "node": ">=8.6"
-      }
-    },
     "node_modules/entities": {
       "version": "2.2.0",
       "dev": true,
@@ -13314,24 +13300,34 @@
       }
     },
     "node_modules/i18next": {
-      "version": "23.7.8",
+      "version": "27.2.6",
+      "resolved": "https://registry.npmjs.org/i18next/-/i18next-27.2.6.tgz",
+      "integrity": "sha512-ScRHHL/oAHaEgi78K770XIDQmOiq3BLjD4zxEoDeva4NLXXLPb83mzeSjFw7SefkwCEpLNC+560Pg0Q3BnCLsA==",
       "funding": [
         {
           "type": "individual",
-          "url": "https://locize.com"
-        },
-        {
-          "type": "individual",
-          "url": "https://locize.com/i18next.html"
+          "url": "https://www.locize.com/i18next"
         },
         {
           "type": "individual",
           "url": "https://www.i18next.com/how-to/faq#i18next-is-awesome.-how-can-i-support-the-project"
+        },
+        {
+          "type": "individual",
+          "url": "https://www.locize.com"
         }
       ],
       "license": "MIT",
-      "dependencies": {
-        "@babel/runtime": "^7.23.2"
+      "engines": {
+        "node": ">=22"
+      },
+      "peerDependencies": {
+        "typescript": "^5 || ^6 || ^7"
+      },
+      "peerDependenciesMeta": {
+        "typescript": {
+          "optional": true
+        }
       }
     },
     "node_modules/iconv-lite": {
@@ -21948,7 +21944,7 @@
     },
     "node_modules/typescript": {
       "version": "5.3.3",
-      "dev": true,
+      "devOptional": true,
       "license": "Apache-2.0",
       "bin": {
         "tsc": "bin/tsc",
@@ -30558,16 +30554,6 @@
         "tapable": "^2.2.0"
       }
     },
-    "enquirer": {
-      "version": "2.4.1",
-      "dev": true,
-      "optional": true,
-      "peer": true,
-      "requires": {
-        "ansi-colors": "^4.1.1",
-        "strip-ansi": "^6.0.1"
-      }
-    },
     "entities": {
       "version": "2.2.0",
       "dev": true
@@ -32331,10 +32317,10 @@
       "dev": true
     },
     "i18next": {
-      "version": "23.7.8",
-      "requires": {
-        "@babel/runtime": "^7.23.2"
-      }
+      "version": "27.2.6",
+      "resolved": "https://registry.npmjs.org/i18next/-/i18next-27.2.6.tgz",
+      "integrity": "sha512-ScRHHL/oAHaEgi78K770XIDQmOiq3BLjD4zxEoDeva4NLXXLPb83mzeSjFw7SefkwCEpLNC+560Pg0Q3BnCLsA==",
+      "requires": {}
     },
     "iconv-lite": {
       "version": "0.4.24",
@@ -37898,7 +37884,7 @@
     },
     "typescript": {
       "version": "5.3.3",
-      "dev": true
+      "devOptional": true
     },
     "typo-js": {
       "version": "1.2.3"
